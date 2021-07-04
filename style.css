@@ -1,0 +1,89 @@
+body{
+    margin: 0 auto;
+}
+h1{
+    font-family: 'Tourney', cursive;
+    font-size: 60px;
+}
+.orange{
+    color: orange;
+    font-size: 60px; 
+}
+.for-flex{
+    display:flex;
+    padding-bottom: 70px;
+   
+}
+.half-width{
+    width: 50%;
+   padding-left: 10px;
+}
+#for-image{
+    width: 80%;
+}
+#for-images{
+    width: 65%;
+}
+.half-width p{
+    font-size: 30px;
+}
+
+.Hire-button{
+    text-decoration: none;
+    
+    background-image: linear-gradient(#e66465, #9198e5);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+}
+#top-banner{
+    background-image:url(images/top-banner.png) ;
+    background-repeat: no-repeat;
+    
+}
+#last{
+    display: flex;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+#last p{
+    font-size: 20px;
+}
+.box{
+    box-shadow: 10px 10px 10px teal;
+    border-left: 10px solid;
+    border-image: linear-gradient(#64e6b4, #bee591);
+    border-image-slice: 1;
+    border-radius: 10px;
+    padding: 15px;
+
+    
+    
+}
+#second-box{
+    border-image: linear-gradient(#e66485, #e591c2);
+    border-image-slice: 1;
+}
+#third-box{
+    border-image: linear-gradient(#e6c364, #cfe591);
+    border-image-slice: 1;
+}
+#banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+#finis{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
